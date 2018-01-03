@@ -17,3 +17,87 @@ html {
 h1, h2, h3 ,h4 {
   font-family: "Nunito", sans-serif;
 }
+
+h2 {
+  color: #007F95;
+}
+
+h3 {
+  color: #fff;
+}
+
+.card p {
+  color: #fff;
+}
+
+.masthead {
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  max-width: 120px;
+}
+
+a {
+  color: #007F95;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.current {
+  color: #007F95;
+}
+
+a:active {
+  color: #DDDFE0;
+  background-color: #007F95;
+}
+
+a:hover {
+  color: #DDDFE0;
+  background-color: #007F95;
+}
+
+.section-dark {
+  background-color: #4B4C4C;
+}
+
+.button {
+  font-family: "Nunito", sans-serif;
+  background-color: #DDDFE0;
+  border-radius: 12px;
+}
+
+.banner {
+  position: relative;
+  max-height: 24em;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 4em;
+  left: 0;
+  color: #fff;
+  width: 100%;
+}
+
+
+.card {
+  background-color:  #4B4C4C;
+  border-radius: 12px;
+}
