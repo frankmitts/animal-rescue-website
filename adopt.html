@@ -15,7 +15,7 @@
 
   <header class="grid masthead grid-middle section-dark island-1-8 pad-0">
     <div class="push-0 gutter-0 unit xs-1 s-1 m-1-3 l-1-4 xl-1-4">
-      <img class="logo gutter-0 push-0" src="images/logo.png" alt="logo">
+      <a href="index.html"><img class="logo gutter-0 push-0" src="images/logo.png" alt="logo"></a>
     </div>
 
     <nav class="unit xs-1 s-1 m-2-3 l-3-4 xl-3-4">
@@ -27,18 +27,138 @@
     </nav>
   </header>
 
-      <!--banner-->
-      <div class="banner">
-        <div class="embed-16by9">
-          <img class="img-flex embed-item" src="images/grass.jpg" alt="#">
-        </div>
-        <div class="banner-content gutter-1-2">
-          <div class="max-length">
-            <h1 class=" bold yotta text-center push-1-2">Adopt a dog today</h1>
-            <div class="text-center">
-              <a href="sign-up.html" class="push-0 btn">Adopt</a>
-            </div>
+    <!--banner-->
+    <div class="banner">
+      <div class="embed-16by9">
+        <img class="img-flex embed-item" src="images/grass.jpg" alt="#">
+      </div>
+      <div class="banner-content gutter-1-2">
+        <div class="max-length">
+          <h1 class=" bold tena text-center push-1-2">Adopt a dog today</h1>
+          <div class="text-center">
+            <a href="sign-up.html" class="push-0 btn">Adopt</a>
           </div>
         </div>
       </div>
+    </div>
+
+    <section class="max-length contact gutter pad-t-2 pad-b-2">
+
+        <div class="unit xs-1 s-1 m-1 l-1 xl-1 ">
+          <h1>Adoption Form</h1>
+          <p class="mega">We’re looking for super-awesome human being who want to Adopt a dog.</p>
+        </div>
+
+          <form class="push-0" method="post" action="https://formspree.io/mitt0033@algonquinlive.com">
+              <fieldset class="push-0">
+                <div class="grid">
+                <legend class="push-0 giga unit xs-1 s-1 m-1 l-1">Personal details</legend>
+
+                <div class="sidebyside unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+                  <label class="bold" for="name">Full Name</label>
+                  <input id="name" name="name">
+                </div>
+
+                <div class="sidebyside unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+                  <label class="bold" for="age">Age</label>
+                  <input id="age" name="age">
+                </div>
+
+
+                <div class="sidebyside unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+                  <label class="bold" for="name">Partner's Full Name</label>
+                  <input id="name" name="name">
+                </div>
+
+                <div class="sidebyside unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+                  <label class="bold" for="age">Partner's Age</label>
+                  <input id="age" name="age">
+                </div>
+              </div>
+              </fieldset>
+
+              <fieldset class="push-0 grid">
+                <div class="grid">
+                <legend class="push-0 giga unit xs-1 s-1 m-1 l-1">Contact Information</legend>
+
+                <div class="sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+                  <label class="bold" for="email">Email</label>
+                  <input id="email" type="email">
+                </div>
+
+                <div class="push unit xs-1 s-1 m-1 l-1 xl-1 ">
+                  <label class="bold" for="address">Address</label>
+                  <input id="address" name="address"></input>
+                </div>
+
+                <div class="push unit xs-1 s-1 m-1 l-1 xl-1 ">
+                  <label class="bold" for="address">Postal/Zip Code</label>
+                  <input id="address" name="address"></input>
+                </div>
+              </div>
+              </fieldset>
+
+            <fieldset class="push-0 grid">
+              <legend class="push-0 giga unit xs-1 s-1 m-1 l-1">Mission statement</legend>
+
+              <div class="push unit xs-1 s-1 m-1 l-1 xl-1 ">
+                <label class="bold" for="details">Why do you want to go to Mars?</label>
+                <textarea id="details" name="details"></textarea>
+              </div>
+              <div class="sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+                <label class="bold" for="subject">Physical fitness</label>
+                <select id="subject" name="subject">
+                  <option>Super-human</option>
+                  <option>Super-human</option>
+                  <option>Not terribly strong</option>
+                  <option>A little couch-potato-y</option>
+                </select>
+              </div>
+
+              <div class="push unit xs-1 s-1 m-1 l-1 xl-1 text-center">
+                <button class="btn" type="submit">Register for the trip!</button>
+              </div>
+              <input type="hidden" name="subject" value="Request to join the mission">
+            </fieldset>
+
+            <fieldset class="push-0 grid">
+              <legend class="push-0 giga unit xs-1 s-1 m-1 l-1">Life Style</legend>
+
+              <div class="sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+                <label class="bold" for="subject">Home Style</label>
+                <select id="subject" name="subject">
+                  <option>House</option>
+                  <option>Semi-detached</option>
+                  <option>Town House</option>
+                  <option>Apartment</option>
+                </select>
+              </div>
+              <div class="sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+                <label class="bold" for="subject">Do You</label>
+                <select id="subject" name="subject">
+                  <option>Rent</option>
+                  <option>Own</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+                <label class="bold" for="subject">Environment Type</label>
+                <select id="subject" name="subject">
+                  <option>Country</option>
+                  <option>Suburban</option>
+                </select>
+              </div>
+              <div class="sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+                <label class="bold" for="subject">Is your yard fully fenced and secure enough to contain any dog</label>
+                <select id="subject" name="subject">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              </div>
+            </fieldset>
+          </form>
+      </section>
+
+
 </body>
+</html>

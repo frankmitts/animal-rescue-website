@@ -30,6 +30,10 @@ h3 {
   color: #fff;
 }
 
+.card-bottom {
+  border-bottom: 3px solid #4B4C4C;
+}
+
 .masthead {
   text-align: center;
 }
@@ -59,7 +63,9 @@ li {
 }
 
 .current {
-  color: #007F95;
+  color: #DDDFE0;
+  background-color: #007F95;
+  border-radius: 12px;
 }
 
 a:active {
@@ -70,6 +76,7 @@ a:active {
 a:hover {
   color: #DDDFE0;
   background-color: #007F95;
+  transition: all .2s linear;
 }
 
 .section-dark {
@@ -100,4 +107,47 @@ a:hover {
 .card {
   background-color:  #4B4C4C;
   border-radius: 12px;
+}
+
+.hover-box {
+  color: #fff;
+}
+
+.hover-box:focus {
+  z-index: 10;
+}
+
+.hover-box-caption {
+  bottom: -4em;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .9);
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-caption,
+.hover-box:focus .hover-box-caption {
+  bottom: 0;
+}
+
+.hover-box-img {
+  filter: grayscale(100%);
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+legend {
+  color: #007F95;
+}
+
+@media only screen and (min-width: 60em) {
+
+  ul {
+    text-align: right;
+  }
+
 }
