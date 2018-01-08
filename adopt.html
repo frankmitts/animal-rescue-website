@@ -13,13 +13,13 @@
 
 <body>
 
-  <ul class="skip-links">
+  <ul class="skip-links invisible">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header class="masthead" role="banner">
-    <div class="grid grid-middle section-dark island-1-8 pad-0">
+  <header class="masthead section-dark" role="banner">
+    <div class="grid grid-middle island-1-8 pad-0">
       <div class="push-0 gutter-0 unit xs-1 s-1 m-1-3 l-1-4 xl-1-4">
         <a href="index.html"><img class="logo gutter-0 push-0" src="images/logo.png" alt="logo"></a>
       </div>
@@ -36,13 +36,13 @@
     <!--banner-->
     <div class="banner">
       <div class="embed-16by9">
-        <img class="img-flex embed-item" src="images/grass.jpg" alt="#">
+        <img class="img-flex embed-item" src="images/home-banner.jpg" alt="#">
       </div>
       <div class="banner-content gutter-1-2">
         <div class="max-length">
           <h1 class="bold tena text-center push-1-2">Apply Today</h1>
           <div class="text-center">
-            <a href="sign-up.html" class="push-0 btn">Adopt</a>
+            <a href="sign-up.html" class="push-0 gutter btn">Adopt</a>
           </div>
         </div>
       </div>
@@ -57,6 +57,7 @@
         <h2 class="text-center push-1-2 zetta">Adoption Form</h1>
         <p class="giga text-center max-length">We’re looking for super-awesome human being who want to Adopt a dog.</p>
       </div>
+      <hr>
 
   <!--form-->
       <form class="push-0" method="post" action="https://formspree.io/mitt0033@algonquinlive.com">
@@ -76,12 +77,12 @@
 
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-2-3 l-2-3 push">
             <label class="bold push-1-4" for="name">Partner's Full Name</label>
-            <input id="name" name="name">
+            <input id="partner-name" name="partner-name">
           </div>
 
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1-3 l-1-3 push">
             <label class="bold push-1-4" for="age">Partner's Age</label>
-            <input id="age" name="age">
+            <input id="partner-age" name="partner-age">
           </div>
         </section>
       </fieldset>
@@ -92,12 +93,12 @@
         <section class="grid">
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
             <label class="bold push-1-4" for="email">Email</label>
-            <input id="email" type="email">
+            <input id="email" type="email"></input>
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
             <label class="bold push-1-4" for="address">Phone Number</label>
-            <input id="address" name="address"></input>
+            <input id="number" name="number"></input>
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
@@ -106,13 +107,13 @@
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1-2 m-1-2 l-1-2">
-            <label class="bold push-1-4" for="address">City</label>
-            <input id="address" name="address"></input>
+            <label class="bold push-1-4" for="city">City</label>
+            <input id="city" name="city"></input>
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1-2 m-1-2 l-1-2">
             <label class="bold push-1-4" for="address">Postal/Zip Code</label>
-            <input id="address" name="address"></input>
+            <input id="postal-code" name="postal-code"></input>
           </div>
 
         </section>
@@ -145,7 +146,7 @@
 
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
             <label class="bold push-1-4" for="subject">Home Style</label>
-            <select id="subject" name="subject">
+            <select id="home" name="home-style">
               <option>House</option>
               <option>Semi-detached</option>
               <option>Town House</option>
@@ -154,7 +155,7 @@
           </div>
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
             <label class="bold push-1-4" for="subject">Do You</label>
-            <select id="subject" name="subject">
+            <select id="ownership" name="ownership">
               <option>Rent</option>
               <option>Own</option>
               <option>Other</option>
@@ -162,14 +163,14 @@
           </div>
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
             <label class="bold push-1-4" for="subject">Environment Type</label>
-            <select id="subject" name="subject">
+            <select id="environment" name="environment">
               <option>Country</option>
               <option>Suburban</option>
             </select>
           </div>
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1 l-1 push">
             <label class="bold push-1-4" for="subject">Is your yard fully fenced and secure enough to contain any dog</label>
-            <select id="subject" name="subject">
+            <select id="yard" name="yard">
               <option>Yes</option>
               <option>No</option>
             </select>
@@ -185,12 +186,12 @@
 
           <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
             <label class="bold push-1-4" for="details">Where will your dog be kept during the day?</label>
-            <textarea id="details" name="details"></textarea>
+            <textarea id="location" name="location"></textarea>
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
             <label class="bold push-1-4" for="details">How many working hours will your dog be left alone in a day?</label>
-            <textarea id="details" name="details"></textarea>
+            <textarea id="work-hours" name="work-hours"></textarea>
           </div>
 
         </section>
