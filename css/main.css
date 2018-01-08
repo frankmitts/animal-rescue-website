@@ -5,17 +5,11 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-
-h1, h2, h3 ,h4 {
-  font-family: "Nunito", sans-serif;
+h1, h2, h3, h4 {
+  font-family: Nunito, sans-serif;
 }
 
 h2 {
@@ -75,7 +69,7 @@ a:active {
 }
 
 a:hover {
-  color: #DDDFE0;
+  color: #dddfe0;
   background-color: #007f95;
   transition: all .2s linear;
 }
@@ -104,9 +98,8 @@ a:hover {
   width: 100%;
 }
 
-
 .card {
-  background-color:  #4b4c4c;
+  background-color: #4b4c4c;
   border-radius: 12px;
 }
 
