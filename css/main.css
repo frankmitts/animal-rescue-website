@@ -79,7 +79,7 @@ a:hover {
 }
 
 .button {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   background-color: #dddfe0;
   border-radius: 12px;
 }

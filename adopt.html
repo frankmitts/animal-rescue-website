@@ -40,7 +40,7 @@
       </div>
       <div class="banner-content gutter-1-2">
         <div class="max-length">
-          <h1 class=" bold tena text-center push-1-2">Aply Today</h1>
+          <h1 class="bold tena text-center push-1-2">Apply Today</h1>
           <div class="text-center">
             <a href="sign-up.html" class="push-0 btn">Adopt</a>
           </div>
@@ -62,9 +62,8 @@
       <form class="push-0" method="post" action="https://formspree.io/mitt0033@algonquinlive.com">
   <!--personal information-->
       <fieldset class="push-0">
-        <div class="grid">
-          <legend class="pad-t push-1-2 giga unit xs-1 s-1 m-1 l-1">Personal details</legend>
-
+        <legend class="pad-t push-1-2 giga unit xs-1 s-1 m-1 l-1">Personal details</legend>
+        <section class="grid">
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-2-3 l-2-3 push">
             <label class="bold push-1-4" for="name">Full Name</label>
             <input id="name" name="name">
@@ -84,14 +83,13 @@
             <label class="bold push-1-4" for="age">Partner's Age</label>
             <input id="age" name="age">
           </div>
-        </div>
+        </section>
       </fieldset>
 
   <!--contact information-->
       <fieldset class="push-0">
-        <div class="grid">
-          <legend class="pad-t push-1-2 giga unit xs-1 s-1 m-1 l-1">Contact Information</legend>
-
+        <legend class="pad-t push-1-2 giga unit xs-1 s-1 m-1 l-1">Contact Information</legend>
+        <section class="grid">
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
             <label class="bold push-1-4" for="email">Email</label>
             <input id="email" type="email">
@@ -117,14 +115,13 @@
             <input id="address" name="address"></input>
           </div>
 
-        </div>
+        </section>
       </fieldset>
 
   <!--miss-->
       <fieldset class="push-0">
-        <div class="grid">
-          <legend class="pad-t push-1-2 giga unit xs-1 s-1 m-1 l-1">Mission statement</legend>
-
+        <legend class="pad-t push-1-2 giga unit xs-1 s-1 m-1 l-1">Mission statement</legend>
+        <section class="grid">
           <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
             <label class="bold push-1-4" for="details">Why do you want to go to Mars?</label>
             <textarea id="details" name="details"></textarea>
@@ -138,13 +135,13 @@
               <option>A little couch-potato-y</option>
             </select>
           </div>
-        </div>
+        </section>
       </fieldset>
 
   <!--life style-->
       <fieldset class="push-0">
-        <div class="grid">
-          <legend class="pad-t push-1-2 giga unit xs-1 s-1 m-1 l-1">Life Style</legend>
+        <legend class="pad-t push-1-2 giga unit xs-1 s-1 m-1 l-1">Life Style</legend>
+        <section class="grid">
 
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
             <label class="bold push-1-4" for="subject">Home Style</label>
@@ -196,7 +193,7 @@
             <textarea id="details" name="details"></textarea>
           </div>
 
-        </div>
+        </section>
       </fieldset>
 
   <!--submit btn-->
@@ -218,11 +215,11 @@
 
   <!--confirmation pop-up-->
 <script>
-var answer = confirm("This adoption form may take up to 10 minute to complete. Proceed with form?")
-if (comfirm) {
+  var answer = confirm("This adoption form may take up to 10 minute to complete. Proceed with form?")
+  if (Yes) {
     //continue on with form
-}
-else {
+  }
+  else {
     //bring back to last page
-}
+  }
 </script>
