@@ -150,11 +150,3 @@ input, textarea, select {
 legend {
   color: #007f95;
 }
-
-@media only screen and (min-width: 60em) {
-
-  ul {
-    text-align: right;
-  }
-
-}

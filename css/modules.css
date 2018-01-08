@@ -1008,7 +1008,7 @@ select {
 
 button,
 .btn {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   cursor: pointer;
   display: inline-block;
   margin: 0;
@@ -1037,7 +1037,7 @@ button:hover,
 .btn:focus,
 .btn:hover {
   color: #fff;
-  background: #007F95;
+  background: #007f95;
 }
 
 button[disabled] {
