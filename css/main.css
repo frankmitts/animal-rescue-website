@@ -19,7 +19,7 @@ h1, h2, h3 ,h4 {
 }
 
 h2 {
-  color: #007F95;
+  color: #007f95;
 }
 
 h3 {
@@ -31,7 +31,7 @@ h3 {
 }
 
 .card-bottom {
-  border-bottom: 3px solid #4B4C4C;
+  border-bottom: 3px solid #4b4c4c;
 }
 
 .masthead {
@@ -44,7 +44,7 @@ h3 {
 }
 
 a {
-  color: #007F95;
+  color: #007f95;
   text-decoration: none;
 }
 
@@ -64,29 +64,29 @@ li {
 }
 
 .current {
-  color: #DDDFE0;
-  background-color: #007F95;
+  color: #dddfe0;
+  background-color: #007f95;
   border-radius: 12px;
 }
 
 a:active {
-  color: #DDDFE0;
-  background-color: #007F95;
+  color: #dddfe0;
+  background-color: #007f95;
 }
 
 a:hover {
   color: #DDDFE0;
-  background-color: #007F95;
+  background-color: #007f95;
   transition: all .2s linear;
 }
 
-header {
-  background-color: #4B4C4C;
+.section-dark {
+  background-color: #000;
 }
 
 .button {
   font-family: "Nunito", sans-serif;
-  background-color: #DDDFE0;
+  background-color: #dddfe0;
   border-radius: 12px;
 }
 
@@ -106,7 +106,7 @@ header {
 
 
 .card {
-  background-color:  #4B4C4C;
+  background-color:  #4b4c4c;
   border-radius: 12px;
 }
 
@@ -143,12 +143,12 @@ header {
 
 input, textarea, select {
   border-radius: 12px;
-  border: solid 3px #007F95;
+  border: solid 3px #007f95;
 
 }
 
 legend {
-  color: #007F95;
+  color: #007f95;
 }
 
 @media only screen and (min-width: 60em) {
