@@ -1047,6 +1047,8 @@ button[disabled] {
   background-color: #e2e2e2;
   border-color: #e2e2e2;
   color: #000;
+  font-family: Nunito, sans-serif;
+  border-radius: 12px;
 }
 
 .btn-light:focus,

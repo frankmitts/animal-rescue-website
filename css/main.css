@@ -38,6 +38,7 @@ h3 {
 a {
   color: #468ea6;
   text-decoration: none;
+  transition: all .4s;
 }
 
 .nav {
@@ -61,11 +62,6 @@ li {
   border-radius: 12px;
 }
 
-a:active {
-  color: #dddfe0;
-  background-color: #468ea6;
-}
-
 a:hover {
   color: #dddfe0;
   background-color: #468ea6;
@@ -75,12 +71,6 @@ a:hover {
 .section-dark {
   background-color: #000;
   color: #fff;
-}
-
-.button {
-  font-family: Nunito, sans-serif;
-  background-color: #e2e2e2;
-  border-radius: 12px;
 }
 
 .banner {

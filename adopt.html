@@ -10,26 +10,28 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito:700|Raleway:400,400i" rel="stylesheet">
   <link href="favicon.ico" rel="shortcut icon">
+  <link rel="apple-touch-icon" href="/favicon-196.png">
 </head>
 
 <body>
 
-  <ul class="skip-links invisible">
+  <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#logo">Jump to home page</a></li>
   </ul>
 
   <header class="masthead section-dark" role="banner">
     <div class="grid grid-middle island-1-8 pad-0">
       <div class="push-0 gutter-0 unit xs-1 s-1 m-1-3 l-1-4 xl-1-4">
-        <a href="index.html"><img class="logo gutter-0 push-0" src="images/logo.png" alt="logo"></a>
+        <a href="index.html"><img class="logo gutter-0 push-0" tabindex="0" src="images/logo.png" alt="logo"></a>
       </div>
 
       <nav class="unit xs-1 s-1 m-2-3 l-3-4 xl-3-4" role="navigation">
         <ul class="nav list-group">
-          <li class="gutter-1-2 push-1-2 pad-t-1-2"><a class="button link-box island-1-4 gutter" href="index.html">Home</a></li>
-          <li class="gutter-1-2 push-1-2 pad-t-1-2"><a class="button link-box island-1-4 gutter" href="rescues.html">Rescues</a></li>
-          <li class="current gutter-1-2 push-1-2 pad-t-1-2"><a class="button link-box island-1-4 gutter" href="adopt.html">Adopt</a></li>
+          <li class="gutter-1-2 push-1-2 pad-t-1-2"><a class="btn-light island-1-4 gutter link-box" href="index.html">Home</a></li>
+          <li class="gutter-1-2 push-1-2 pad-t-1-2"><a class="btn-light island-1-4 gutter link-box" href="rescues.html">Rescues</a></li>
+          <li class="current gutter-1-2 push-1-2 pad-t-1-2"><a class="btn-light island-1-4 gutter link-box" href="adopt.html">Adopt</a></li>
         </ul>
       </nav>
     </div>
@@ -43,7 +45,7 @@
         <div class="max-length">
           <h1 class="bold tena text-center push-1-2">Apply Today</h1>
           <div class="text-center">
-            <a href="sign-up.html" class="push-0 gutter btn">Adopt</a>
+            <a href="sign-up.html" class="push-0 btn island-1-4 gutter">Adopt</a>
           </div>
         </div>
       </div>
@@ -55,8 +57,8 @@
     <section class="max-length contact gutter pad-t-2 pad-b-2" id="form">
 
       <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center ">
-        <h2 class="text-center push-1-2 zetta">Adoption Form</h1>
-        <p class="giga text-center max-length">We’re looking for super-awesome human being who want to Adopt a dog.</p>
+        <h2 class="text-center push-1-2 zetta">Adoption Form</h2>
+        <p class="giga text-center max-length">We’re looking for super-awesome human beings who want to Adopt a dog.</p>
       </div>
       <hr>
 
@@ -71,20 +73,11 @@
             <input id="name" name="name">
           </div>
 
-          <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1-3 l-1-3 push">
-            <label class="bold push-1-4" for="age">Age</label>
-            <input id="age" name="age">
+          <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
+            <label class="bold push-1-4" for="subject">How many live in the house?</label>
+            <textarea id="recidents" name="recidents"></textarea>
           </div>
 
-          <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-2-3 l-2-3 push">
-            <label class="bold push-1-4" for="name">Partner's Full Name</label>
-            <input id="partner-name" name="partner-name">
-          </div>
-
-          <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1-3 l-1-3 push">
-            <label class="bold push-1-4" for="age">Partner's Age</label>
-            <input id="partner-age" name="partner-age">
-          </div>
         </section>
       </fieldset>
 
@@ -94,49 +87,29 @@
         <section class="grid">
           <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
             <label class="bold push-1-4" for="email">Email</label>
-            <input id="email" type="email"></input>
+            <input id="email" type="email">
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
             <label class="bold push-1-4" for="address">Phone Number</label>
-            <input id="number" name="number"></input>
+            <input id="number" name="number">
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
             <label class="bold push-1-4" for="address">Address</label>
-            <input id="address" name="address"></input>
+            <input id="address" name="address">
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1-2 m-1-2 l-1-2">
             <label class="bold push-1-4" for="city">City</label>
-            <input id="city" name="city"></input>
+            <input id="city" name="city">
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1-2 m-1-2 l-1-2">
             <label class="bold push-1-4" for="address">Postal/Zip Code</label>
-            <input id="postal-code" name="postal-code"></input>
+            <input id="postal-code" name="postal-code">
           </div>
 
-        </section>
-      </fieldset>
-
-  <!--miss-->
-      <fieldset class="push-0">
-        <legend class="pad-t push-1-2 giga unit xs-1 s-1 m-1 l-1">Mission statement</legend>
-        <section class="grid">
-          <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
-            <label class="bold push-1-4" for="details">Why do you want to go to Mars?</label>
-            <textarea id="details" name="details"></textarea>
-          </div>
-          <div class="gutter-1-2 sidebyside unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
-            <label class="bold push-1-4" for="subject">Physical fitness</label>
-            <select id="subject" name="subject">
-              <option>Super-human</option>
-              <option>Super-human</option>
-              <option>Not terribly strong</option>
-              <option>A little couch-potato-y</option>
-            </select>
-          </div>
         </section>
       </fieldset>
 
@@ -186,12 +159,12 @@
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
-            <label class="bold push-1-4" for="details">Where will your dog be kept during the day?</label>
+            <label class="bold push-1-4" for="subject">Where will your dog be kept during the day?</label>
             <textarea id="location" name="location"></textarea>
           </div>
 
           <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1 xl-1 ">
-            <label class="bold push-1-4" for="details">How many working hours will your dog be left alone in a day?</label>
+            <label class="bold push-1-4" for="subject">How many working hours will your dog be left alone in a day?</label>
             <textarea id="work-hours" name="work-hours"></textarea>
           </div>
 
@@ -200,7 +173,7 @@
 
   <!--submit btn-->
         <div class="push unit xs-1 s-1 m-1 l-1 xl-1 text-center">
-          <button class="btn" type="submit">Completed</button>
+          <button class="btn-light island-1-4 gutter" type="submit">Completed</button>
         </div>
         <input type="hidden" name="subject" value="Adoption aplication">
 
@@ -214,14 +187,3 @@
 
 </body>
 </html>
-
-  <!--confirmation pop-up-->
-<script>
-  var answer = confirm("This adoption form may take up to 10 minute to complete. Proceed with form?")
-  if (confirm) {
-    //continue on with form
-  }
-  else {
-    //bring back to last page
-  }
-</script>
