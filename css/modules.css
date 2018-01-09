@@ -1036,7 +1036,6 @@ button:hover,
 .btn:focus,
 .btn:hover {
   color: #fff;
-  background: #007f95;
 }
 
 button[disabled] {
@@ -1151,11 +1150,6 @@ a:focus, [tabindex="0"]:focus {
 
 [aria-disabled] {
   cursor: default;
-}
-
-.print-only {
-  display: none;
-  visibility: hidden;
 }
 
 .page-break-before {
