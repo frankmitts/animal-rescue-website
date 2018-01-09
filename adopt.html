@@ -9,6 +9,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito:700|Raleway:400,400i" rel="stylesheet">
+  <link href="favicon.ico" rel="shortcut icon">
 </head>
 
 <body>
@@ -34,9 +35,9 @@
     </div>
 
     <!--banner-->
-    <div class="banner">
-      <div class="embed-16by9">
-        <img class="img-flex embed-item" src="images/home-banner.jpg" alt="#">
+    <div class="banner hover-box block relative crop">
+      <div class="embed embed-16by9">
+        <img class="hover-box-img embed-item img-flex " src="images/home-banner.jpg" alt="#">
       </div>
       <div class="banner-content gutter-1-2">
         <div class="max-length">
@@ -217,7 +218,7 @@
   <!--confirmation pop-up-->
 <script>
   var answer = confirm("This adoption form may take up to 10 minute to complete. Proceed with form?")
-  if (Yes) {
+  if (confirm) {
     //continue on with form
   }
   else {
