@@ -62,6 +62,10 @@ li {
   border-radius: 12px;
 }
 
+.skip-links {
+  background-color: #000;
+}
+
 a:hover {
   color: #dddfe0;
   background-color: #468ea6;
